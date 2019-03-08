@@ -1,0 +1,13 @@
+ 
+  <table>
+  <tr>
+    <th *ngFor="let col of array">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let char of array | async">
+    <td *ngFor="let col of array">
+      {{char[col]}}
+    </td>
+  </tr>
+</table>
