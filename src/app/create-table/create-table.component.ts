@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-create-table',
   templateUrl: './create-table.component.html',
