@@ -1,0 +1,13 @@
+table{
+    border: 3px dotted;
+    background-color: rgb(164, 228, 240);
+}
+th, tr, td{
+    border: 2px solid;
+}
+button{
+    color: rgb(228, 165, 83);
+}
+button:hover{
+    background-color: cornflowerblue;
+}
